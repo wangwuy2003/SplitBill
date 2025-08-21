@@ -17,4 +17,8 @@ class SplashPresenter {
     func navigateToHome() {
         router.navigateHome()
     }
+    
+    func navigateToLogin() {
+        router.navigateToLogin()
+    }
 }

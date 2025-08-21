@@ -19,4 +19,9 @@ struct CoreBuilder {
         let presenter = SplashPresenter(router: router)
         return SplashViewController(presenter: presenter)
     }
+    
+    func loginView(router: CoreRouter) -> LoginViewController {
+        let presenter = LoginPresenter(router: router)
+        return LoginViewController(presenter: presenter)
+    }
 }

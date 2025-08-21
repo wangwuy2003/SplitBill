@@ -11,4 +11,8 @@ extension CoreRouter {
     func navigateHome() {
         navigate(to: builder.homeView(router: self))
     }
+    
+    func navigateToLogin() {
+        navigate(to: builder.loginView(router: self))
+    }
 }
